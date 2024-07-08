@@ -1,18 +1,12 @@
 package com.training.calculator;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class CalculatorTest {
-    private Calculator calculator;
-
-    @BeforeEach
-    public void setUp() {
-        calculator = new Calculator();
-    }
+    private static final Calculator calculator = new Calculator();
 
     @Test
     public void testAdd() {
