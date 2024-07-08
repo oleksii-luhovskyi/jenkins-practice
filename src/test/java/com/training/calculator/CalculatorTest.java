@@ -23,7 +23,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testSubtract() {
+    public void testFail() {
         assertEquals(1, 0);
     }
 
