@@ -23,11 +23,6 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testFail() {
-        assertEquals(1, 0);
-    }
-
-    @Test
     public void testMultiply() {
         assertEquals(6, calculator.multiply(2, 3));
         assertEquals(-6, calculator.multiply(2, -3));
